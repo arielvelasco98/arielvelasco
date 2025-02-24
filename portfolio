@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio & CV</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #1c1c1c;
+        }
+        header h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a {
+            color: #ffffff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            padding: 50px;
+            text-align: left;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .hero-text h2 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .hero-text p {
+            font-size: 18px;
+            color: #b0b0b0;
+        }
+        .hero img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .btn {
+            display: inline-block;
+            background: #6e8efb;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        footer {
+            background: #1c1c1c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <nav>
+            <a href="projects.html">Projects</a>
+            <a href="information.html">Information</a>
+            <a href="social.html">Social Media</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Hey, I'm John.</h2>
+            <p>Web designer and developer specializing in e-commerce solutions. I create user-friendly and high-performance websites to help businesses grow.</p>
+            <a href="projects.html" class="btn">My Projects</a>
+        </div>
+        <img src="profile.jpg" alt="John Doe">
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
